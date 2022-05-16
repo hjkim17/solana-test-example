@@ -1,0 +1,19 @@
+[package]
+name = "solana-test-example"
+version = "0.1.0"
+description = "Solana test example for study"
+edition = "2018"
+
+[features]
+no-entrypoint = []
+test-bpf = []
+
+[dependencies]
+solana-program = "1.7.11"
+
+[dev-dependencies]
+solana-program-test = "1.7.11"
+solana-sdk = "1.7.11"
+
+[lib]
+crate-type = ["cdylib", "lib"]

@@ -1,0 +1,13 @@
+**/*.lock
+**/*lock.json
+**/target
+**/node_modules
+**/config.ts
+test-ledger
+**/.DS_Store
+
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
